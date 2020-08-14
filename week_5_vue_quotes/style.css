@@ -1,0 +1,42 @@
+div.headerArea {
+  background: white;
+  font-family: Arial Black;
+  font-size: larger;
+}
+
+div.footer{
+  background: white;
+  font-family: Arial Black;
+  font-size: larger;
+}
+
+p.style {
+  font-family: Arial Black;
+  color: black;
+  font-size: small;
+}
+
+#app {
+  text-align: center;
+  overflow: auto;
+  height: 100%;
+  width: 100vw;
+  /* display: inline-block; */
+  display: flex;
+  flex-flow: column wrap;
+  align-items: stretch;
+}
+
+div.quote{
+  height: 100%;
+  width: 100%;
+  font-size: 4vw;
+}
+
+div.author{
+  height: 100%;
+  width: 100%;
+  font-size: 2vw;
+  text-decoration: overline;
+  color: lightgray;
+}

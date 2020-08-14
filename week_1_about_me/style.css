@@ -1,0 +1,38 @@
+* {
+    margin:0;padding:0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+img{
+    max-width:100%;
+}
+
+.about-me-intro{
+    display:grid;
+    grid-template-columns:auto auto;
+    grid-column-start:auto -1;
+    grid-gap: 20px;
+}
+
+.about-me-intro img{
+    max-width: 200px;
+}
+
+.h2-header{
+    color: grey;
+}
+
+.about-me-info{
+    background-color: white;
+    color: black;
+}
+
+.about-me-info p:hover{
+    background-color: black;
+    color: white;
+}
+
+hr.new1 {
+    border-top: 1px solid blackc;
+  }
